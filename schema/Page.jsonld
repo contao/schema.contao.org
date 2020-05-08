@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "contao": "https://schema.contao.org/",
+        "noSearch": "contao:noSearch",
+        "protected": "contao:protected",
+        "groups": "contao:groups",
+        "fePreview": "contao:fePreview"
+    }
+}

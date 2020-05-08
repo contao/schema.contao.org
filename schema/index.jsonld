@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "contao": "https://schema.contao.org/",
+        "Page": {
+            "@id": "contao:Page",
+            "@type": "@id"
+        },
+        "noSearch": {
+            "@id": "contao:noSearch",
+            "@type": "xsd:boolean"
+        },
+        "protected": {
+            "@id": "contao:protected",
+            "@type": "xsd:boolean"
+        },
+        "groups": {
+            "@id": "contao:groups",
+            "@type": "xsd:decimal"
+        },
+        "fePreview": {
+            "@id": "contao:fePreview",
+            "@type": "xsd:boolean"
+        }
+    }
+}
