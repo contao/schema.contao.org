@@ -6,6 +6,10 @@
             "@id": "contao:Page",
             "@type": "@id"
         },
+        "pageId": {
+            "@id": "contao:pageId",
+            "@type": "xsd:integer"
+        },
         "noSearch": {
             "@id": "contao:noSearch",
             "@type": "xsd:boolean"

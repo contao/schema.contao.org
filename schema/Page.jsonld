@@ -1,6 +1,7 @@
 {
     "@context": {
         "contao": "https://schema.contao.org/",
+        "pageId": "contao:pageId",
         "noSearch": "contao:noSearch",
         "protected": "contao:protected",
         "groups": "contao:groups",
