@@ -16,7 +16,7 @@
         },
         "groups": {
             "@id": "contao:groups",
-            "@type": "xsd:decimal"
+            "@type": "xsd:integer"
         },
         "fePreview": {
             "@id": "contao:fePreview",
