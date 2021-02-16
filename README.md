@@ -5,6 +5,7 @@ following Nginx configuration to dispatch it:
 
 ```
 location / {
+  default_type application/ld+json;
   rewrite ^/$ /index.jsonld break;
   rewrite ^(.+)$ $1.jsonld break;
   expires 1d;
