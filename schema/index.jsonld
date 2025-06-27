@@ -25,7 +25,7 @@
         "groups": {
             "@id": "contao:groups",
             "@type": "xsd:integer",
-            "@container":"@set"
+            "@container": "@set"
         },
         "fePreview": {
             "@id": "contao:fePreview",
@@ -34,7 +34,7 @@
         "memberGroups": {
             "@id": "contao:memberGroups",
             "@type": "xsd:integer",
-            "@container":"@set"
+            "@container": "@set"
         }
     }
 }
