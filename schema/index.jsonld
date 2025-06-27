@@ -24,11 +24,17 @@
         },
         "groups": {
             "@id": "contao:groups",
-            "@type": "xsd:integer"
+            "@type": "xsd:integer",
+            "@container":"@set"
         },
         "fePreview": {
             "@id": "contao:fePreview",
             "@type": "xsd:boolean"
+        },
+        "memberGroups": {
+            "@id": "contao:memberGroups",
+            "@type": "xsd:integer",
+            "@container":"@set"
         }
     }
 }
