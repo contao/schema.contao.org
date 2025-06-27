@@ -35,6 +35,10 @@
             "@id": "contao:memberGroups",
             "@type": "xsd:integer",
             "@container": "@set"
+        },
+        "searchIndexer": {
+            "@id": "contao:searchIndexer",
+            "@type": "xsd:string"
         }
     }
 }
